@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\bin\Debug\net10.0\5_Delegate_Task.exe
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\bin\Debug\net10.0\5_Delegate_Task.deps.json
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\bin\Debug\net10.0\5_Delegate_Task.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\bin\Debug\net10.0\5_Delegate_Task.dll
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\bin\Debug\net10.0\5_Delegate_Task.pdb
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.dll
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\refint\5_Delegate_Task.dll
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.pdb
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\5_Delegate_Task.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 4\5_Delegate_Task\5_Delegate_Task\obj\Debug\net10.0\ref\5_Delegate_Task.dll

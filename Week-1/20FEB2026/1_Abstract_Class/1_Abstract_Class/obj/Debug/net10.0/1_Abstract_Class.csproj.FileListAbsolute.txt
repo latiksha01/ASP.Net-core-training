@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\bin\Debug\net10.0\1_Abstract_Class.exe
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\bin\Debug\net10.0\1_Abstract_Class.deps.json
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\bin\Debug\net10.0\1_Abstract_Class.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\bin\Debug\net10.0\1_Abstract_Class.dll
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\bin\Debug\net10.0\1_Abstract_Class.pdb
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.dll
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\refint\1_Abstract_Class.dll
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.pdb
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\1_Abstract_Class.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 4\1_Abstract_Class\1_Abstract_Class\obj\Debug\net10.0\ref\1_Abstract_Class.dll

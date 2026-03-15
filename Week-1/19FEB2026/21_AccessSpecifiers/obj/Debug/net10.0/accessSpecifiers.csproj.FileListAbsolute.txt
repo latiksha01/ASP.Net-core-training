@@ -1,0 +1,14 @@
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\bin\Debug\net10.0\accessSpecifiers.exe
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\bin\Debug\net10.0\accessSpecifiers.deps.json
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\bin\Debug\net10.0\accessSpecifiers.runtimeconfig.json
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\bin\Debug\net10.0\accessSpecifiers.dll
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\bin\Debug\net10.0\accessSpecifiers.pdb
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.AssemblyInfoInputs.cache
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.AssemblyInfo.cs
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.csproj.CoreCompileInputs.cache
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.dll
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\refint\accessSpecifiers.dll
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.pdb
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\accessSpecifiers.genruntimeconfig.cache
+C:\Users\Hardik\Desktop\dotnet\day3\accessSpecifiers\obj\Debug\net10.0\ref\accessSpecifiers.dll

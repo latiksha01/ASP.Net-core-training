@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\JECRC_Latiksha_0177\\19-02-2026\\23_Overriding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D181D9-3E0F-4988-9518-FF0FFB381166}|23_Overriding\\23_Overriding.csproj|w:\\jecrc_latiksha_0177\\19-02-2026\\23_overriding\\23_overriding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D181D9-3E0F-4988-9518-FF0FFB381166}|23_Overriding\\23_Overriding.csproj|solutionrelative:23_overriding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\JECRC_Latiksha_0177\\19-02-2026\\23_Overriding\\23_Overriding\\Program.cs",
+              "RelativeDocumentMoniker": "23_Overriding\\Program.cs",
+              "ToolTip": "W:\\JECRC_Latiksha_0177\\19-02-2026\\23_Overriding\\23_Overriding\\Program.cs",
+              "RelativeToolTip": "23_Overriding\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T06:06:32.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

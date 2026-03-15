@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Double Click Like Example</title>
+</head>
+<body>
+
+<img id="product" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<p>Likes: <span id="count">0</span></p>
+
+<script>
+
+let likes = 0;
+
+document.getElementById("product").addEventListener("dblclick", function(){
+
+    likes++;
+
+    document.getElementById("count").innerText = likes;
+
+    console.log("Product liked", likes);
+
+});
+
+</script>
+
+</body>
+</html>

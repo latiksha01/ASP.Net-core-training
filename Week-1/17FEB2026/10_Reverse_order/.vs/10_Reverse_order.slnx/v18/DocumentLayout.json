@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\JECRC_Latiksha_0177\\16-02-2026\\10_Reverse_order\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{228E65E4-35B3-41A3-804E-D0D32A26D48A}|10_Reverse_order\\10_Reverse_order.csproj|w:\\jecrc_latiksha_0177\\16-02-2026\\10_reverse_order\\10_reverse_order\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228E65E4-35B3-41A3-804E-D0D32A26D48A}|10_Reverse_order\\10_Reverse_order.csproj|solutionrelative:10_reverse_order\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\JECRC_Latiksha_0177\\16-02-2026\\10_Reverse_order\\10_Reverse_order\\Program.cs",
+              "RelativeDocumentMoniker": "10_Reverse_order\\Program.cs",
+              "ToolTip": "W:\\JECRC_Latiksha_0177\\16-02-2026\\10_Reverse_order\\10_Reverse_order\\Program.cs",
+              "RelativeToolTip": "10_Reverse_order\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T05:50:05.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

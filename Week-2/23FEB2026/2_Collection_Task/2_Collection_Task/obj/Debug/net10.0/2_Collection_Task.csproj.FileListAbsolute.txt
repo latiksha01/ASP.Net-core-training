@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\bin\Debug\net10.0\2_Collection_Task.exe
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\bin\Debug\net10.0\2_Collection_Task.deps.json
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\bin\Debug\net10.0\2_Collection_Task.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\bin\Debug\net10.0\2_Collection_Task.dll
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\bin\Debug\net10.0\2_Collection_Task.pdb
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.dll
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\refint\2_Collection_Task.dll
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.pdb
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\2_Collection_Task.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 5\2_Collection_Task\2_Collection_Task\obj\Debug\net10.0\ref\2_Collection_Task.dll

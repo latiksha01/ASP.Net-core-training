@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\bin\Debug\net10.0\4_Delegates.exe
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\bin\Debug\net10.0\4_Delegates.deps.json
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\bin\Debug\net10.0\4_Delegates.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\bin\Debug\net10.0\4_Delegates.dll
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\bin\Debug\net10.0\4_Delegates.pdb
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.dll
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\refint\4_Delegates.dll
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.pdb
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\4_Delegates.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 4\4_Delegates\4_Delegates\obj\Debug\net10.0\ref\4_Delegates.dll

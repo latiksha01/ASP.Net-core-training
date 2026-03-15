@@ -1,0 +1,14 @@
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\bin\Debug\net10.0\Dynamic Tax Computation Engine.exe
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\bin\Debug\net10.0\Dynamic Tax Computation Engine.deps.json
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\bin\Debug\net10.0\Dynamic Tax Computation Engine.runtimeconfig.json
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\bin\Debug\net10.0\Dynamic Tax Computation Engine.dll
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\bin\Debug\net10.0\Dynamic Tax Computation Engine.pdb
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.AssemblyInfoInputs.cache
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.AssemblyInfo.cs
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.csproj.CoreCompileInputs.cache
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.dll
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\refint\Dynamic Tax Computation Engine.dll
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.pdb
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\Dynamic Tax Computation Engine.genruntimeconfig.cache
+D:\Capgemini\28-02-2026\Dynamic Tax Computation Engine\Dynamic Tax Computation Engine\obj\Debug\net10.0\ref\Dynamic Tax Computation Engine.dll

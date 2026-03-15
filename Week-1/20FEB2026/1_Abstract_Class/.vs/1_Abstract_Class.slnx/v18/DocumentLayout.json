@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini\\Dotnet\\Day - 4\\1_Abstract_Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3EBA-FD37-447E-A2E4-1B53B4943362}|1_Abstract_Class\\1_Abstract_Class.csproj|d:\\capgemini\\dotnet\\day - 4\\1_abstract_class\\1_abstract_class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3EBA-FD37-447E-A2E4-1B53B4943362}|1_Abstract_Class\\1_Abstract_Class.csproj|solutionrelative:1_abstract_class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini\\Dotnet\\Day - 4\\1_Abstract_Class\\1_Abstract_Class\\Program.cs",
+              "RelativeDocumentMoniker": "1_Abstract_Class\\Program.cs",
+              "ToolTip": "D:\\Capgemini\\Dotnet\\Day - 4\\1_Abstract_Class\\1_Abstract_Class\\Program.cs",
+              "RelativeToolTip": "1_Abstract_Class\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:11:54.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

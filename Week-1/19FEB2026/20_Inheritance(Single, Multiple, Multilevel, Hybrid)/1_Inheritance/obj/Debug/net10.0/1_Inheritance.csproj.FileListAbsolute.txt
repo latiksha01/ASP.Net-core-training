@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\bin\Debug\net10.0\1_Inheritance.exe
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\bin\Debug\net10.0\1_Inheritance.deps.json
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\bin\Debug\net10.0\1_Inheritance.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\bin\Debug\net10.0\1_Inheritance.dll
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\bin\Debug\net10.0\1_Inheritance.pdb
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.dll
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\refint\1_Inheritance.dll
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.pdb
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\1_Inheritance.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 3\1_Inheritance\1_Inheritance\obj\Debug\net10.0\ref\1_Inheritance.dll

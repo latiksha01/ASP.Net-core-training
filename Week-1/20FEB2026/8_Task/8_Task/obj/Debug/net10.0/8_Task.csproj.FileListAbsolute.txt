@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\bin\Debug\net10.0\8_Task.exe
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\bin\Debug\net10.0\8_Task.deps.json
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\bin\Debug\net10.0\8_Task.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\bin\Debug\net10.0\8_Task.dll
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\bin\Debug\net10.0\8_Task.pdb
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.dll
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\refint\8_Task.dll
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.pdb
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\8_Task.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 4\8_Task\8_Task\obj\Debug\net10.0\ref\8_Task.dll

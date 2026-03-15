@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\bin\Debug\net10.0\6_ArrayList.exe
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\bin\Debug\net10.0\6_ArrayList.deps.json
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\bin\Debug\net10.0\6_ArrayList.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\bin\Debug\net10.0\6_ArrayList.dll
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\bin\Debug\net10.0\6_ArrayList.pdb
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.dll
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\refint\6_ArrayList.dll
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.pdb
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\6_ArrayList.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 4\6_ArrayList\6_ArrayList\obj\Debug\net10.0\ref\6_ArrayList.dll

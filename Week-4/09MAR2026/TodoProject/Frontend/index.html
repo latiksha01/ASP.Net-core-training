@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Todo Management</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f9;
+padding:40px;
+}
+
+h1{
+text-align:center;
+}
+
+.container{
+width:650px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:10px;
+margin:5px 0;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+border:none;
+background:#007bff;
+color:white;
+cursor:pointer;
+border-radius:4px;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid #ccc;
+}
+
+th,td{
+padding:8px;
+text-align:center;
+}
+
+.completed{
+text-decoration: line-through;
+color: green;
+font-weight: bold;
+}
+
+.dark-mode{
+background:#1e1e1e;
+color:white;
+}
+
+.dark-mode .container{
+background:#2d2d2d;
+}
+
+.dark-mode table,
+.dark-mode th,
+.dark-mode td{
+border-color:#555;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Todo Management</h1>
+
+<input id="title" placeholder="Enter Task">
+
+<select id="priority">
+<option value="Low">Low</option>
+<option value="Medium">Medium</option>
+<option value="High">High</option>
+</select>
+
+<input id="searchTask" placeholder="Search Task" onkeyup="searchTasks()">
+
+<button onclick="addTodo()">Add Task</button>
+<button onclick="getTodos()">Fetch Tasks</button>
+<button onclick="toggleDarkMode()">Dark Mode</button>
+
+<br><br>
+
+<button onclick="filterTasks('all')">All</button>
+<button onclick="filterTasks('active')">Active</button>
+<button onclick="filterTasks('completed')">Completed</button>
+
+<table>
+
+<table>
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Title</th>
+<th>Priority</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="todoTable"></tbody>
+
+</table>
+
+</div>
+
+<script>
+
+const API="http://localhost:5291/api/Todo";
+
+let selectedId=null;
+
+
+// FETCH TODOS
+async function getTodos(){
+
+const response = await fetch(API);
+
+const data = await response.json();
+
+displayTodos(data);
+
+}
+
+
+
+
+// DISPLAY TODOS
+function displayTodos(data){
+
+const table=document.getElementById("todoTable");
+
+table.innerHTML="";
+
+data.forEach(t=>{
+
+table.innerHTML+=`
+<tr>
+<td>${t.id}</td>
+<td class="${t.isCompleted ? 'completed':''}">${t.title}</td>
+<td>${t.priority || "Low"}</td>
+<td>${t.isCompleted ? "Completed":"Pending"}</td>
+<td>
+<button onclick="editTodo(${t.id},'${t.title}',${t.isCompleted})">Edit</button>
+<button onclick="toggleTodo(${t.id},${t.isCompleted},'${t.title}','${t.priority}')">Toggle</button>
+<button onclick="deleteTodo(${t.id})">Delete</button>
+</td>
+</tr>
+`;
+
+});
+
+}
+
+// ADD TODO
+async function addTodo(){
+
+const title=document.getElementById("title").value;
+const priority=document.getElementById("priority").value;
+
+if(title===""){
+alert("Enter a task");
+return;
+}
+
+if(selectedId!=null){
+
+await fetch(`${API}/${selectedId}`,{
+method:"PUT",
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({
+id:selectedId,
+title:title,
+priority:priority,
+isCompleted:false
+})
+});
+
+selectedId=null;
+
+alert("Task Updated");
+
+}else{
+
+await fetch(API,{
+method:"POST",
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({
+title:title,
+priority:priority,
+isCompleted:false
+})
+});
+
+alert("Task Added");
+
+}
+
+document.getElementById("title").value="";
+
+getTodos();
+
+}
+
+
+
+// TOGGLE COMPLETE
+async function toggleTodo(id,currentStatus,title,priority){
+
+const todo={
+id:id,
+title:title,
+priority:priority,
+isCompleted:!currentStatus
+};
+
+await fetch(`${API}/${id}`,{
+method:"PUT",
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify(todo)
+});
+
+getTodos();
+
+}
+
+//edit
+function editTodo(id,title,status){
+
+document.getElementById("title").value=title;
+
+selectedId=id;
+
+}
+
+//dark mode
+function toggleDarkMode(){
+document.body.classList.toggle("dark-mode");
+}
+
+//search
+function searchTasks(){
+
+const input=document.getElementById("searchTask").value.toLowerCase();
+
+const rows=document.querySelectorAll("#todoTable tr");
+
+rows.forEach(row=>{
+
+const title=row.children[1].innerText.toLowerCase();
+
+row.style.display=title.includes(input) ? "" : "none";
+
+});
+
+}
+
+
+
+// DELETE TODO
+async function deleteTodo(id){
+
+if(!confirm("Delete this task?")) return;
+
+await fetch(`${API}/${id}`,{
+method:"DELETE"
+});
+
+alert("Task Deleted");
+
+getTodos();
+
+}
+
+//Filter
+function filterTasks(type){
+
+const rows=document.querySelectorAll("#todoTable tr");
+
+rows.forEach(row=>{
+
+const status=row.children[2].innerText;
+
+if(type==="all") row.style.display="";
+
+else if(type==="active" && status==="Pending")
+row.style.display="";
+
+else if(type==="completed" && status==="Completed")
+row.style.display="";
+
+else
+row.style.display="none";
+
+});
+
+}
+
+
+/* AUTO LOAD */
+getTodos();
+
+
+</script>
+
+</body>
+</html>

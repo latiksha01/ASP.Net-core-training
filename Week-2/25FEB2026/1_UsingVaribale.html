@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1> Using Variable </h1> -->
+    <!-- <p id = "outputgreeting"></p> -->
+    <p id = "CompanyInfo"></p>
+    <script>
+        /* var greeting = "Hello World!!";
+        console.log(greeting);
+        let name = "John";
+        console.log("Welcome to JavaScript " + name + "!");
+        document.getElementById("outputgreeting").innerHTML = greeting + "My name is "+ name;*/
+        var company = "CAPGEMINI";
+        let locations = "banglore";
+        const year = 2024;
+        if(true)
+        {
+            var company = "TCS";
+            let locations = " Mumbai";
+            console.log(`Inside block : ${company}, ${locations}, ${year}`);
+        }
+        console.log(`Outside block : ${company}, ${locations}, ${year}`);
+
+        document.getElementById("CompanyInfo").innerHTML = "Company name: " + company + ", Location: " + locations + ", Year: " + year;
+     </script>
+
+     
+</body>
+</html>
+
+

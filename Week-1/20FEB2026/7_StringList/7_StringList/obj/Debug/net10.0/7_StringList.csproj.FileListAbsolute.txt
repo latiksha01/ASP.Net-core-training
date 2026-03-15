@@ -1,0 +1,14 @@
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\bin\Debug\net10.0\7_StringList.exe
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\bin\Debug\net10.0\7_StringList.deps.json
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\bin\Debug\net10.0\7_StringList.runtimeconfig.json
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\bin\Debug\net10.0\7_StringList.dll
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\bin\Debug\net10.0\7_StringList.pdb
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.AssemblyInfoInputs.cache
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.AssemblyInfo.cs
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.csproj.CoreCompileInputs.cache
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.dll
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\refint\7_StringList.dll
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.pdb
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\7_StringList.genruntimeconfig.cache
+D:\Capgemini\Dotnet\Day - 4\7_StringList\7_StringList\obj\Debug\net10.0\ref\7_StringList.dll

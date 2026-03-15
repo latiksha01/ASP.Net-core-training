@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "DataTypes"></p>
+    <script>
+
+        var name = "bob";
+        var name = "alice";
+        console.log(name);
+
+        document.getElementById("DataTypes").textcontent = name;
+        console.log("----- Function scope -----");
+        function TestVar()
+        {
+            var name = "Latiksha";
+            console.log(name);
+        }
+        TestVar();
+        console.log(name);
+        
+//------------------- Primitive Datatypes ---------------------------
+        console.log("\n-----Primitive Datatype-----");
+        let name2 = "david";
+        let age = 30;
+        let isStudent = false;
+        let salary;
+        let bonus = null;
+        let bigNumber = 97845798456986456n;
+        console.log("type of name :" , typeof name2);
+        console.log(typeof age);
+
+//------------------- Non-Primitive Datatypes ---------------------------
+console.log("\n-----Non-premitive data type-----");
+        let person = {name : "eve" , age : 25};
+        let numbers = [1,2,3,4,5];
+        let today = new Date();
+        function greet(){
+            return "welcome";
+        }
+        console.log(typeof greet);
+        console.log(typeof person);
+        console.log(typeof numbers);
+
+    </script>
+</body>
+</html>

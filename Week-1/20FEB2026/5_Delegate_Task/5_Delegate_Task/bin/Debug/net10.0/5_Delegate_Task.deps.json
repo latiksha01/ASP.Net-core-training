@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "5_Delegate_Task/1.0.0": {
+        "runtime": {
+          "5_Delegate_Task.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "5_Delegate_Task/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
