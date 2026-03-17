@@ -1,0 +1,7 @@
+-----Create new Angular File
+ng new my-angular-firstapp 
+cd .\my-angular-firstapp\
+
+-----Run the file
+ng serve
+

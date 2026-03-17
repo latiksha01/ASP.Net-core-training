@@ -1,0 +1,18 @@
+<div style="text-align:center; margin-top:50px; font-family:Arial;">
+
+  <h1>Angular App 🚀</h1>
+
+  <!-- Button -->
+  <button 
+    (click)="showComponent = true"
+    style="padding:10px 20px; background-color:#3498db; color:white; border:none; border-radius:5px; cursor:pointer;">
+    
+    Show Component
+  </button>
+
+  <!-- Show component only when clicked -->
+  <div *ngIf="showComponent">
+    <app-new-component></app-new-component>
+  </div>
+
+</div>
