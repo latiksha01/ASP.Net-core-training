@@ -1,0 +1,22 @@
+<div class="container">
+
+  <h2>Choose Your Profile</h2>
+
+  <button (click)="setRole('admin')">👑 Admin</button>
+  <button (click)="setRole('user')">👤 User</button>
+
+  <hr>
+
+  <!-- ADMIN -->
+  <div *appRole="userRole">
+    <h3>👑 Admin Panel</h3>
+    <p>Manage Users, Reports, Settings</p>
+  </div>
+
+  <!-- USER (no directive needed) -->
+  <div *ngIf="userRole === 'user'">
+    <h3>👤 User Panel</h3>
+    <p>View Salary, Apply Leave, Check Attendance</p>
+  </div>
+
+</div>

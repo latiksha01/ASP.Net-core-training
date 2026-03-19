@@ -1,0 +1,11 @@
+<h2>🛒 Product List</h2>
+
+<div *ngFor="let p of products" class="card">
+
+  <h3>{{ p.name }}</h3>
+
+  <p [appPriceHighlight]="p.price">
+    Price: ₹{{ p.price }}
+  </p>
+
+</div>

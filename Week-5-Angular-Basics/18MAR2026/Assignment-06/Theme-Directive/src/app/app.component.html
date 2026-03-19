@@ -1,0 +1,14 @@
+<div [appTheme]="theme" class="container">
+
+  <h2>🎨 Theme Directive</h2>
+
+  <button class="toggle-btn" (click)="toggleTheme()">
+    Switch to {{ theme === 'light' ? 'Dark 🌙' : 'Light ☀️' }} Mode
+  </button>
+
+  <div class="card">
+    <h3>Welcome!</h3>
+    <p>This UI changes based on theme.</p>
+  </div>
+
+</div>

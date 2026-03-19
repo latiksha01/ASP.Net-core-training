@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.topper {
+  border: 2px solid gold;
+  background-color: #fff8dc;
+}
+
+.fail {
+  background-color: #ffe6e6;
+}
