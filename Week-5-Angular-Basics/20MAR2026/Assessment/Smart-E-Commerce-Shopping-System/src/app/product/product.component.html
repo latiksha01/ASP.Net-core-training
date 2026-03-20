@@ -1,0 +1,46 @@
+<h2>Products</h2>
+
+<!-- 🔍 Search -->
+<h3>Search Product</h3>
+<input type="text" [(ngModel)]="searchText" placeholder="Search...">
+
+<br><br>
+
+<!-- 🔽 Filter -->
+<h3>Filter by Category</h3>
+<select [(ngModel)]="selectedCategory">
+  <option value="">All</option>
+  <option value="Electronics">Electronics</option>
+  <option value="Fashion">Fashion</option>
+</select>
+
+<hr>
+
+<!-- 🛍 Products -->
+<div *ngFor="let p of products">
+
+  <div *ngIf="
+    p.name.toLowerCase().includes(searchText.toLowerCase()) &&
+    (selectedCategory === '' || p.category === selectedCategory)
+  " style="border:1px solid black; margin:10px; padding:10px;">
+    
+    <h3>{{ p.name }}</h3>
+    
+    <p>Price: ₹{{ p.price }}</p>
+    <p>Category: {{ p.category }}</p>
+    <p>Rating: ⭐ {{ p.rating }}</p>
+
+    <label>Quantity:</label>
+    <input type="number" [(ngModel)]="p.qty" min="1">
+
+    <br><br>
+
+    <button (click)="addToCart(p)">Add to Cart</button>
+
+  </div>
+
+</div>
+
+<hr>
+
+<h3>Total Cart Value: ₹{{ getTotal() }}</h3>

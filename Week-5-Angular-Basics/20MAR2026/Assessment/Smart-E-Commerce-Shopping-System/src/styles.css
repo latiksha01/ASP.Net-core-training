@@ -1,0 +1,25 @@
+/* 🌍 Global Styling */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2f3640;
+}
+
+h2 {
+  color: #273c75;
+}
+
+h3 {
+  color: #353b48;
+}
+
+hr {
+  margin: 20px 0;
+}

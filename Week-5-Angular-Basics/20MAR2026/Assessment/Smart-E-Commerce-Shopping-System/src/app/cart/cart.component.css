@@ -1,0 +1,26 @@
+/* 🛒 Cart Styling */
+
+h2 {
+  margin-top: 20px;
+}
+
+div {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #dcdde1;
+}
+
+button {
+  background-color: #e84118;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c23616;
+}

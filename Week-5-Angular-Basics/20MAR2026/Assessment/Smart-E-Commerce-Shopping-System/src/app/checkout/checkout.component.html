@@ -1,0 +1,91 @@
+<h2>Checkout</h2>
+
+<form>
+
+<!-- TEXT -->
+<input type="text" placeholder="Full Name" [(ngModel)]="user.name" name="name"><br><br>
+
+<!-- ADDRESS -->
+<input type="text" placeholder="Address" [(ngModel)]="user.address" name="address"><br><br>
+
+<!-- EMAIL -->
+<input type="email" placeholder="Email" [(ngModel)]="user.email" name="email"><br><br>
+
+<!-- NUMBER -->
+<input type="number" placeholder="Phone" [(ngModel)]="user.phone" name="phone"><br><br>
+
+<input type="number" placeholder="ZIP Code" [(ngModel)]="user.zip" name="zip"><br><br>
+
+<!-- RADIO -->
+<p>Gender:</p>
+<label><input type="radio" value="Male" [(ngModel)]="user.gender" name="gender"> Male</label>
+<label><input type="radio" value="Female" [(ngModel)]="user.gender" name="gender"> Female</label>
+
+<br><br>
+
+<p>Delivery Type:</p>
+<label><input type="radio" value="Standard" [(ngModel)]="user.deliveryType" name="delivery"> Standard</label>
+<label><input type="radio" value="Express" [(ngModel)]="user.deliveryType" name="delivery"> Express</label>
+
+<br><br>
+
+<!-- CHECKBOX -->
+<label>
+  <input type="checkbox" [(ngModel)]="user.terms" name="terms"> Accept Terms
+</label>
+
+<br>
+
+<label>
+  <input type="checkbox" [(ngModel)]="user.subscribe" name="subscribe"> Subscribe
+</label>
+
+<br><br>
+
+<!-- DROPDOWN -->
+<select [(ngModel)]="user.city" name="city">
+  <option value="">Select City</option>
+  <option>Jaipur</option>
+  <option>Delhi</option>
+</select>
+
+<br><br>
+
+<!-- DATE -->
+<input type="date" [(ngModel)]="user.deliveryDate" name="date">
+
+<br><br>
+
+<!-- TEXTAREA -->
+<textarea placeholder="Instructions" [(ngModel)]="user.instructions" name="instructions"></textarea>
+
+<br><br>
+
+<!-- FILE -->
+<input type="file">
+
+<br><br>
+
+<!-- PAYMENT -->
+<p>Payment Method:</p>
+
+<label><input type="radio" value="Card" [(ngModel)]="user.paymentMethod" name="payment"> Card</label>
+<label><input type="radio" value="UPI" [(ngModel)]="user.paymentMethod" name="payment"> UPI</label>
+
+<br><br>
+
+<!-- CONDITIONAL -->
+<div *ngIf="user.paymentMethod === 'Card'">
+  <input type="text" placeholder="Card Number" [(ngModel)]="user.cardNumber" name="card"><br>
+  <input type="number" placeholder="CVV" [(ngModel)]="user.cvv" name="cvv">
+</div>
+
+<div *ngIf="user.paymentMethod === 'UPI'">
+  <input type="text" placeholder="UPI ID" [(ngModel)]="user.upi" name="upi">
+</div>
+
+<br><br>
+
+<button>Submit</button>
+
+</form>
