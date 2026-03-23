@@ -1,0 +1,14 @@
+<h2>💳 CHECKOUT</h2>
+
+<input [(ngModel)]="form.name" placeholder="Name" required />
+<input [(ngModel)]="form.email" placeholder="Email" required />
+<textarea [(ngModel)]="form.address" placeholder="Address"> </textarea>
+
+<select [(ngModel)]="form.payment">
+    <option value="Seelec Payment"></option>
+    <option>Card</option>
+    <option > UPI</option>
+</select>
+
+<button (click)="submit()">PLACE ORDER</button>
+
