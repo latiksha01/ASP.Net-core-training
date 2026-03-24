@@ -1,0 +1,6 @@
+.page  { padding: 24px; }
+.list  { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.card  { border: 1px solid #ccc; border-radius: 8px; padding: 16px; }
+.card h3 { margin: 0 0 6px; }
+.card p  { margin: 0 0 8px; color: #555; font-size: 14px; }
+.card a  { color: #2563eb; text-decoration: none; font-size: 14px; }

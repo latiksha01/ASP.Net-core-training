@@ -1,0 +1,15 @@
+<div class="page">
+  <h2>Welcome back, Rahul 👋</h2>
+  <p>Here are some courses for you.</p>
+
+  <div class="list">
+    <div class="card" *ngFor="let course of courses">
+      <h3>{{ course.title }}</h3>
+      <p>{{ course.category }} | {{ course.duration }}</p>
+      <a [routerLink]="['/course', course.id]">View Details →</a>
+    </div>
+  </div>
+
+  <br>
+  <a routerLink="/courses">Browse All Courses</a>
+</div>

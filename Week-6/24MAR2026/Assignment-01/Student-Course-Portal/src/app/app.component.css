@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 24px;
+  background: #1e293b;
+  color: white;
+}
+.logo {
+  font-weight: 800;
+  margin-right: auto;
+}
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+nav a:hover {
+  background: #334155;
+  color: white;
+}

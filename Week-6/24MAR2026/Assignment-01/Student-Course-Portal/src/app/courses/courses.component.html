@@ -1,0 +1,28 @@
+<!-- COURSE DETAIL VIEW when /course/:id -->
+<div class="page" *ngIf="selectedCourse; else listView">
+  <a routerLink="/courses">← Back</a>
+  <h2>{{ selectedCourse.title }}</h2>
+  <p>{{ selectedCourse.description }}</p>
+  <p><strong>Category:</strong> {{ selectedCourse.category }}</p>
+  <p><strong>Instructor:</strong> {{ selectedCourse.instructor }}</p>
+  <p><strong>Duration:</strong> {{ selectedCourse.duration }}</p>
+  <p><strong>Enrolled:</strong> {{ selectedCourse.enrolled }} students</p>
+  <p><strong>Rating:</strong> ⭐ {{ selectedCourse.rating }}</p>
+  <button>Enroll Now</button>
+</div>
+
+<!-- COURSE LIST VIEW when /courses -->
+<ng-template #listView>
+  <div class="page">
+    <h2>All Courses</h2>
+
+    <div class="list">
+      <div class="card" *ngFor="let course of courses">
+        <h3>{{ course.title }}</h3>
+        <p>{{ course.category }} | {{ course.duration }} | ⭐ {{ course.rating }}</p>
+        <p>👤 {{ course.instructor }}</p>
+        <a [routerLink]="['/course', course.id]">View Details →</a>
+      </div>
+    </div>
+  </div>
+</ng-template>

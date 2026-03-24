@@ -1,0 +1,5 @@
+.page  { padding: 24px; }
+.info  { border: 1px solid #ccc; border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+.info p { margin: 6px 0; font-size: 15px; }
+.list  { display: flex; flex-direction: column; gap: 10px; }
+.card  { border: 1px solid #ccc; border-radius: 8px; padding: 12px; font-size: 14px; }

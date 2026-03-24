@@ -1,0 +1,17 @@
+<div class="page">
+  <h2>My Profile</h2>
+
+  <div class="info">
+    <p><strong>Name:</strong> {{ student.name }}</p>
+    <p><strong>ID:</strong> {{ student.id }}</p>
+    <p><strong>Email:</strong> {{ student.email }}</p>
+    <p><strong>Batch:</strong> {{ student.batch }}</p>
+  </div>
+
+  <h3>Enrolled Courses</h3>
+  <div class="list">
+    <div class="card" *ngFor="let course of enrolledCourses">
+      <p><strong>{{ course.title }}</strong> — {{ course.duration }}</p>
+    </div>
+  </div>
+</div>
