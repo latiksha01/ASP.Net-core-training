@@ -1,0 +1,29 @@
+<h2>Task Manager</h2>
+
+<ul>
+  <li *ngFor="let task of tasks">
+
+    <!-- Checkbox -->
+    <input type="checkbox" [(ngModel)]="task.completed" />
+
+    <!-- Edit Mode -->
+    <span *ngIf="editingTaskId !== task.id"
+          [style.textDecoration]="task.completed ? 'line-through' : 'none'">
+      {{ task.title }}
+    </span>
+
+    <!-- Input when editing -->
+    <input *ngIf="editingTaskId === task.id"
+           [(ngModel)]="editedTitle" />
+
+    <!-- Buttons -->
+    <button *ngIf="editingTaskId !== task.id"
+            (click)="startEdit(task)">Edit</button>
+
+    <button *ngIf="editingTaskId === task.id"
+            (click)="saveEdit(task)">Save</button>
+
+    <button (click)="deleteTask(task.id!)">Delete</button>
+
+  </li>
+</ul>

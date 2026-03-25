@@ -1,0 +1,116 @@
+/* 🌟 Page Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+  margin: 0;
+  padding: 20px;
+}
+
+/* 🌟 Main Container */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 🌟 Input + Button Section */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Add Button */
+button {
+  padding: 8px 14px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+/* Different Buttons */
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-child(1) {
+  background-color: #007bff;
+  color: white;
+}
+
+button:nth-child(2) {
+  background-color: #ffc107;
+  color: black;
+}
+
+button:nth-child(3) {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* 🌟 Task List Card */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+li {
+  background: white;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+}
+
+/* Task text */
+li span {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Completed Task */
+li span[style*="line-through"] {
+  color: #888;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Edit input */
+li input[type="text"] {
+  flex: 1;
+  margin-left: 10px;
+}
+
+/* Button group */
+li button {
+  margin-left: 6px;
+  font-size: 12px;
+}

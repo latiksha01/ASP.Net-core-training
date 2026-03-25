@@ -1,0 +1,13 @@
+<h2 class="title">🛒 My Cart</h2>
+
+<div *ngIf="getCartItems().length > 0; else emptyCart">
+
+  <h3 class="total">
+    Total Amount: ₹ {{ getTotal() }}
+  </h3>
+
+</div>
+
+<ng-template #emptyCart>
+  <p class="empty">Your cart is empty 🛍️</p>
+</ng-template>
