@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1e1e2f;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  margin: 0;
+  font-weight: 600;
+}
+
+.dropdown {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
