@@ -1,0 +1,266 @@
+.bill-editor {
+  display: flex;
+  gap: 24px;
+}
+
+.catalog-panel {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.catalog-panel h2 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #1e3a5f;
+}
+
+.catalog-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.tab {
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #1e3a5f;
+  color: white;
+  border-color: #1e3a5f;
+}
+
+.catalog-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.catalog-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.catalog-card:hover {
+  background: #eef3ff;
+  border-color: #2563eb;
+}
+
+.catalog-item-name { font-size: 14px; }
+.catalog-item-price { font-weight: bold; color: #2563eb; }
+
+.custom-item-section h3 {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.custom-item-section input {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.bill-panel {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.bill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.bill-header h2 { color: #1e3a5f; }
+
+.customer-input {
+  padding: 7px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 220px;
+}
+
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.bill-table th {
+  background: #f4f6f8;
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.bill-table td {
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.bill-table small {
+  color: #999;
+  font-size: 11px;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #aaa;
+  padding: 30px !important;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.qty-control button {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f4f6f8;
+  font-size: 14px;
+}
+
+.qty-control input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px;
+  font-size: 13px;
+}
+
+.price-input {
+  width: 80px;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: #e53e3e;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.bill-settings {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.setting-row label {
+  width: 80px;
+  color: #555;
+}
+
+.setting-row select,
+.setting-row input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.bill-totals {
+  border-top: 2px solid #f0f0f0;
+  padding-top: 12px;
+  margin-bottom: 16px;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.total-row.discount { color: #16a34a; }
+
+.total-row.grand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e3a5f;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 8px;
+  margin-top: 4px;
+}
+
+.message {
+  text-align: center;
+  color: #16a34a;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.bill-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.btn-primary {
+  background: #1e3a5f;
+  color: white;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.btn-primary:hover { background: #2563eb; }
+
+.btn-secondary {
+  background: white;
+  color: #1e3a5f;
+  border: 1px solid #1e3a5f;
+  padding: 9px 20px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.btn-secondary:hover { background: #f0f4ff; }

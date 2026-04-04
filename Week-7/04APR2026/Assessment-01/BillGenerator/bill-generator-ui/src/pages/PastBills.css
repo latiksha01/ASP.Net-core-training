@@ -1,0 +1,87 @@
+.past-bills {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.past-bills h2 {
+  color: #1e3a5f;
+  margin-bottom: 16px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.filters input { flex: 1; }
+
+.bills-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.bills-table th {
+  background: #f4f6f8;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.bills-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.invoice-num {
+  font-family: monospace;
+  font-size: 12px;
+  color: #555;
+}
+
+.amount {
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #aaa;
+  padding: 30px !important;
+}
+
+.status-badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-badge.final { background: #d1fae5; color: #065f46; }
+.status-badge.draft { background: #fef3c7; color: #92400e; }
+.status-badge.void  { background: #fee2e2; color: #991b1b; }
+
+.btn-delete {
+  background: none;
+  border: 1px solid #e53e3e;
+  color: #e53e3e;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.btn-delete:hover { background: #fee2e2; }
