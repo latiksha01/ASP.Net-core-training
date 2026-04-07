@@ -1,0 +1,102 @@
+/* Global Styles & Theme Variables */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  letter-spacing: -0.025em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Theme Variables - Enhanced Light Contrast */
+:root {
+  /* Light Theme - Higher Contrast */
+  --bg: #fafbfc;
+  --bg-secondary: #f1f5f9;
+  --bg-tertiary: #e2e8f0;
+  --text: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --card-bg: #ffffff;
+  --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.05);
+  --border: #e2e8f0;
+  --success: #10b981;
+  --danger: #ef4444;
+}
+
+:root.dark {
+  /* Dark Theme */
+  --bg: #0a0a14;
+  --bg-secondary: #161623;
+  --bg-tertiary: #212136;
+  --text: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --card-bg: rgba(22, 22, 35, 0.85);
+  --card-shadow: 0 20px 30px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.25);
+  --border: #334155;
+  --success: #34d399;
+  --danger: #f87171;
+}
+
+/* Root theme wrapper */
+.light, body.light {
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.dark, body.dark {
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.light .login-right {
+  background: linear-gradient(135deg, var(--primary) 0%, #60a5fa 100%);
+}
+
+.dark .login-right {
+  background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+}
+
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+/* Button global override for visibility */
+button {
+  background: var(--primary) !important;
+  color: white !important;
+  border: none !important;
+}
