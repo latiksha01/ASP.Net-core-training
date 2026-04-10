@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Laptop_API.Controllers.LaptopController",
+    "Method": "CreateLaptop",
+    "RelativePath": "api/Laptop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Laptop_API.models.Dtos.LaptopDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Laptop_API.Controllers.LaptopController",
+    "Method": "GetAllLaptops",
+    "RelativePath": "api/Laptop",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Laptop_API.Controllers.LaptopController",
+    "Method": "DeleteLaptop",
+    "RelativePath": "api/Laptop/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Laptop_API.Controllers.LaptopController",
+    "Method": "GetLaptopById",
+    "RelativePath": "api/Laptop/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
