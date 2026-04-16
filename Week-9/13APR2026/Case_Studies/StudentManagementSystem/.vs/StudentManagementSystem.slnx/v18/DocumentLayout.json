@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{686F6B63-41DE-489F-9EBB-34B0D489FB2F}|StudentManagementSystem\\StudentManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686F6B63-41DE-489F-9EBB-34B0D489FB2F}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F482B21-B2B9-4FCB-A1CD-A25408459769}|StudentAttendanceManagementSystem\\StudentAttendanceManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentattendancemanagementsystem\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F482B21-B2B9-4FCB-A1CD-A25408459769}|StudentAttendanceManagementSystem\\StudentAttendanceManagementSystem.csproj|solutionrelative:studentattendancemanagementsystem\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F482B21-B2B9-4FCB-A1CD-A25408459769}|StudentAttendanceManagementSystem\\StudentAttendanceManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentattendancemanagementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F482B21-B2B9-4FCB-A1CD-A25408459769}|StudentAttendanceManagementSystem\\StudentAttendanceManagementSystem.csproj|solutionrelative:studentattendancemanagementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentadmissionmanagementsystem\\model\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|solutionrelative:studentadmissionmanagementsystem\\model\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentadmissionmanagementsystem\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|solutionrelative:studentadmissionmanagementsystem\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F482B21-B2B9-4FCB-A1CD-A25408459769}|StudentAttendanceManagementSystem\\StudentAttendanceManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentattendancemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F482B21-B2B9-4FCB-A1CD-A25408459769}|StudentAttendanceManagementSystem\\StudentAttendanceManagementSystem.csproj|solutionrelative:studentattendancemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentadmissionmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|solutionrelative:studentadmissionmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686F6B63-41DE-489F-9EBB-34B0D489FB2F}|StudentManagementSystem\\StudentManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentmanagementsystem\\studentmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{686F6B63-41DE-489F-9EBB-34B0D489FB2F}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\studentmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|w:\\asp.net-core-training\\week-9\\13apr2026\\case_studies\\studentmanagementsystem\\studentadmissionmanagementsystem\\studentadmissionmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB5EC958-6964-49EC-8CB0-E0B0D9C03812}|StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj|solutionrelative:studentadmissionmanagementsystem\\studentadmissionmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionManagementSystem\\Program.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\Program.cs",
+              "RelativeToolTip": "StudentAdmissionManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:02:47.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAttendanceManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAttendanceManagementSystem\\Program.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAttendanceManagementSystem\\Program.cs",
+              "RelativeToolTip": "StudentAttendanceManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:59:39.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAttendanceManagementSystem\\Model\\Attendance.cs",
+              "RelativeDocumentMoniker": "StudentAttendanceManagementSystem\\Model\\Attendance.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAttendanceManagementSystem\\Model\\Attendance.cs",
+              "RelativeToolTip": "StudentAttendanceManagementSystem\\Model\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:45:44.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAttendanceManagementSystem\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "StudentAttendanceManagementSystem\\Controllers\\AttendanceController.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAttendanceManagementSystem\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "StudentAttendanceManagementSystem\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:45:26.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdmissionController.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\Controllers\\AdmissionController.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionManagementSystem\\Controllers\\AdmissionController.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\Controllers\\AdmissionController.cs",
+              "RelativeToolTip": "StudentAdmissionManagementSystem\\Controllers\\AdmissionController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:39:48.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admission.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\Model\\Admission.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionManagementSystem\\Model\\Admission.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\Model\\Admission.cs",
+              "RelativeToolTip": "StudentAdmissionManagementSystem\\Model\\Admission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:37:01.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentManagementSystem",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\StudentManagementSystem.csproj",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+              "RelativeToolTip": "StudentManagementSystem\\StudentManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-13T05:33:25.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Program.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:27:21.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentAdmissionManagementSystem",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj",
+              "RelativeDocumentMoniker": "StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-9\\13APR2026\\Case_Studies\\StudentManagementSystem\\StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj",
+              "RelativeToolTip": "StudentAdmissionManagementSystem\\StudentAdmissionManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-13T05:32:36.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
