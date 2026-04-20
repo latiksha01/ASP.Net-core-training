@@ -1,0 +1,46 @@
+<div class="page">
+  <header class="page-header">
+    <div class="header-pill">
+      <span class="pulse-dot"></span>
+      Angular Change Detection
+    </div>
+    <h1>Change Detection <span class="accent">Puzzle</span></h1>
+    <p class="tagline">Question 11 — OnPush vs Default strategy visualized live</p>
+  </header>
+
+  <div class="tree-bar">
+    <div class="tree-node node-app">
+      <div class="node-dot"></div>
+      <div>
+        <div class="node-name">AppComponent</div>
+        <div class="node-strat">Default</div>
+      </div>
+    </div>
+    <div class="tree-connector">
+      <div class="connector-line"></div>
+      <div class="connector-arrow"></div>
+    </div>
+    <div class="tree-node node-dash">
+      <div class="node-dot"></div>
+      <div>
+        <div class="node-name">DashboardComponent</div>
+        <div class="node-strat">OnPush</div>
+      </div>
+    </div>
+    <div class="tree-connector">
+      <div class="connector-line"></div>
+      <div class="connector-arrow"></div>
+    </div>
+    <div class="tree-node node-stats">
+      <div class="node-dot"></div>
+      <div>
+        <div class="node-name">StatsComponent</div>
+        <div class="node-strat">Default</div>
+      </div>
+    </div>
+  </div>
+
+  <app-dashboard [userStats]="userStats"></app-dashboard>
+
+  <footer class="page-footer">Angular 17+ · Standalone Components · OnPush Strategy Demo</footer>
+</div>

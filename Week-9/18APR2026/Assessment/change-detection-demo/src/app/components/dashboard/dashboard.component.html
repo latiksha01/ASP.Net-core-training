@@ -1,0 +1,131 @@
+<div class="dashboard" [ngClass]="{
+  'state-broken': lastAction === 'broken',
+  'state-fix1':   lastAction === 'fix1',
+  'state-fix2':   lastAction === 'fix2'
+}">
+
+  <!-- Top bar -->
+  <div class="dash-header">
+    <div class="dash-title">
+      <div class="glowing-dot dot-purple"></div>
+      <span class="comp-name">DashboardComponent</span>
+      <span class="strategy-badge">OnPush</span>
+    </div>
+    <div class="header-right">
+      <div class="cycle-counter">
+        <span class="cycle-label">CD calls</span>
+        <span class="cycle-value">{{ cdCycles }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Score + player panel -->
+  <div class="hero-panel">
+    <div class="player-info">
+      <div class="avatar">{{ userStats.name[0] }}</div>
+      <div class="player-meta">
+        <div class="player-name">{{ userStats.name }}</div>
+        <div class="player-level">
+          <span class="level-dot"></span>
+          {{ userStats.level }}
+        </div>
+      </div>
+    </div>
+
+    <div class="score-display">
+      <div class="score-label-text">Score in THIS view</div>
+      <div class="score-big" [ngClass]="{
+        'score-red':    lastAction === 'broken',
+        'score-green':  lastAction === 'fix1',
+        'score-blue':   lastAction === 'fix2'
+      }">{{ userStats.score }}</div>
+      <div class="score-sublabel" *ngIf="lastAction === 'broken'">
+        view not updated — real value is 100
+      </div>
+    </div>
+  </div>
+
+  <!-- Status callout -->
+  <div class="callout" [ngClass]="{
+    'callout-idle':    lastAction === '',
+    'callout-broken':  lastAction === 'broken',
+    'callout-success': lastAction === 'fix1' || lastAction === 'fix2'
+  }">
+    <div class="callout-icon" *ngIf="lastAction === ''">i</div>
+    <div class="callout-icon warn" *ngIf="lastAction === 'broken'">!</div>
+    <div class="callout-icon ok" *ngIf="lastAction === 'fix1' || lastAction === 'fix2'">✓</div>
+    <div class="callout-body">
+      <span *ngIf="lastAction === ''">Click any button below to trigger change detection and observe the behavior.</span>
+      <span *ngIf="lastAction === 'broken'">
+        <strong>Score was mutated to 100</strong> — but this view shows the old value.
+        OnPush detected no reference change and skipped re-rendering.
+        StatsComponent (Default) updated because it checks every cycle.
+      </span>
+      <span *ngIf="lastAction === 'fix1'">
+        <strong>Spread operator created a new object reference.</strong>
+        OnPush detected the new reference via === comparison and triggered re-render. Score is now 200.
+      </span>
+      <span *ngIf="lastAction === 'fix2'">
+        <strong>markForCheck() manually flagged this component.</strong>
+        Angular included it in the next CD cycle even with a mutated (same) reference. Score is now 300.
+      </span>
+    </div>
+  </div>
+
+  <!-- 3 action buttons -->
+  <div class="action-grid">
+    <div class="action-card card-broken">
+      <div class="action-top">
+        <span class="action-tag tag-broken">Part a — The Bug</span>
+      </div>
+      <button class="action-btn btn-broken" (click)="updateLocally()">
+        updateLocally()
+      </button>
+      <div class="action-code">this.userStats.score = 100</div>
+      <div class="action-desc">Mutates the object — same reference — OnPush skips this view</div>
+    </div>
+
+    <div class="action-card card-fix1">
+      <div class="action-top">
+        <span class="action-tag tag-fix">Part c — Fix 1</span>
+      </div>
+      <button class="action-btn btn-fix1" (click)="fixWithNewReference()">
+        New Reference
+      </button>
+      <div class="action-code">this.userStats = &#123;...userStats, score: 200&#125;</div>
+      <div class="action-desc">Spread operator creates a new object — OnPush sees new ref</div>
+    </div>
+
+    <div class="action-card card-fix2">
+      <div class="action-top">
+        <span class="action-tag tag-fix">Part c — Fix 2</span>
+      </div>
+      <button class="action-btn btn-fix2" (click)="fixWithMarkForCheck()">
+        markForCheck()
+      </button>
+      <div class="action-code">cdRef.markForCheck()</div>
+      <div class="action-desc">Manually tells Angular to re-check on next CD cycle</div>
+    </div>
+  </div>
+
+  <button class="reset-btn" (click)="reset()">↺ Reset to 0</button>
+
+  <!-- Activity log -->
+  <div class="log-section" *ngIf="log.length > 0">
+    <div class="log-header">Activity Log</div>
+    <div class="log-list">
+      <div class="log-entry" *ngFor="let entry of log" [ngClass]="{
+        'log-broken': entry.type === 'broken',
+        'log-fix':    entry.type === 'fix1' || entry.type === 'fix2',
+        'log-reset':  entry.type === 'reset'
+      }">
+        <span class="log-time">{{ entry.time }}</span>
+        <span class="log-action">{{ entry.action }}</span>
+        <span class="log-result">→ {{ entry.result }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Child StatsComponent -->
+  <app-stats [userStats]="userStats"></app-stats>
+</div>

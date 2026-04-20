@@ -1,0 +1,31 @@
+<div class="stats-card">
+  <div class="stats-header">
+    <div class="dash-title">
+      <div class="glowing-dot dot-amber"></div>
+      <span class="comp-name">StatsComponent</span>
+      <span class="strategy-badge-default">Default</span>
+    </div>
+    <div class="always-badge">always checked</div>
+  </div>
+
+  <div class="stats-body">
+    <div class="stat-item">
+      <div class="stat-label">Score (this view)</div>
+      <div class="stat-value amber">{{ userStats.score }}</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label">Player</div>
+      <div class="stat-value">{{ userStats.name }}</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label">Level</div>
+      <div class="stat-value">{{ userStats.level }}</div>
+    </div>
+  </div>
+
+  <div class="stats-note">
+    This component uses Default strategy — Angular checks it on every
+    change detection cycle regardless of input reference changes.
+    Compare its score to DashboardComponent above after clicking the broken button.
+  </div>
+</div>
