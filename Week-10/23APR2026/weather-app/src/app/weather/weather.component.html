@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>Check Weather</h1>
+
+  <div class="search-box">
+    <input
+      type="text"
+      [(ngModel)]="cityName"
+      (input)="searchCity()"
+      data-test-id="app-input"
+      placeholder="Enter city..."
+    />
+  </div>
+
+  <!-- Weather Card -->
+  <div *ngIf="result" class="card" data-test-id="weather-details">
+    <h2>{{ result.name }}</h2>
+
+    <div class="info" data-test-id="output-temperature">
+      🌡️ {{ result.temperature }}
+    </div>
+
+    <div class="info" data-test-id="output-wind">
+      💨 Wind: {{ result.wind }}
+    </div>
+
+    <div class="info" data-test-id="output-humidity">
+      💧 Humidity: {{ result.humidity }}
+    </div>
+  </div>
+
+  <!-- No Result -->
+  <div *ngIf="searched && !result" class="no-result" data-test-id="no-results">
+    No Results Found
+  </div>
+</div>
