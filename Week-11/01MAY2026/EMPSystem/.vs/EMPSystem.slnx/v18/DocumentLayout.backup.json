@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|w:\\asp.net-core-training\\week-11\\01may2026\\empsystem\\empsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|w:\\asp.net-core-training\\week-11\\01may2026\\empsystem\\empsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|w:\\asp.net-core-training\\week-11\\01may2026\\empsystem\\empsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|w:\\asp.net-core-training\\week-11\\01may2026\\empsystem\\empsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|w:\\asp.net-core-training\\week-11\\01may2026\\empsystem\\empsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E550E7-BA55-4229-B5D4-6D1ADCEC5B7F}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Program.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Program.cs",
+              "RelativeToolTip": "EMPSystem\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T07:04:42.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EMPSystem\\appsettings.json",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\appsettings.json",
+              "RelativeToolTip": "EMPSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T06:48:25.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Controllers\\EmployeesController.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EMPSystem\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T07:18:57.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Data\\AppDbContext.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EMPSystem\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T06:46:59.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Models\\Employee.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-11\\01MAY2026\\EMPSystem\\EMPSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "EMPSystem\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T06:42:36.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+@model ems_mvc.Models.Employee
+
+<h2>Add Employee</h2>
+
+<form method="post" action="/Employee/Create">
+    <div>
+        <label>Name</label>
+        <input type="text" name="Name" />
+    </div>
+
+    <div>
+        <label>Role</label>
+        <input type="text" name="Role" />
+    </div>
+
+    <div>
+        <label>Salary</label>
+        <input type="number" name="Salary" />
+    </div>
+
+    <br />
+    <button type="submit">Save</button>
+</form>
