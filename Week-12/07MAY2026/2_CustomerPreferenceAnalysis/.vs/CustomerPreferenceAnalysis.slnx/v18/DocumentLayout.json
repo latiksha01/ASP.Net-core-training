@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\CustomerPreferenceAnalysis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED939221-A463-48AE-AD37-51B03A3A4A42}|CustomerPreferenceAnalysis\\CustomerPreferenceAnalysis.csproj|w:\\asp.net-core-training\\week-12\\07may2026\\customerpreferenceanalysis\\customerpreferenceanalysis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED939221-A463-48AE-AD37-51B03A3A4A42}|CustomerPreferenceAnalysis\\CustomerPreferenceAnalysis.csproj|solutionrelative:customerpreferenceanalysis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\CustomerPreferenceAnalysis\\CustomerPreferenceAnalysis\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerPreferenceAnalysis\\Program.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\CustomerPreferenceAnalysis\\CustomerPreferenceAnalysis\\Program.cs",
+              "RelativeToolTip": "CustomerPreferenceAnalysis\\Program.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T08:37:44.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

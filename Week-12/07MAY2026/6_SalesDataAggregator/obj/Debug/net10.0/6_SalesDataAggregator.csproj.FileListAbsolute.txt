@@ -1,0 +1,15 @@
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\bin\Debug\net10.0\6_SalesDataAggregator.exe
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\bin\Debug\net10.0\6_SalesDataAggregator.deps.json
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\bin\Debug\net10.0\6_SalesDataAggregator.runtimeconfig.json
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\bin\Debug\net10.0\6_SalesDataAggregator.dll
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\bin\Debug\net10.0\6_SalesDataAggregator.pdb
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.GeneratedMSBuildEditorConfig.editorconfig
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.AssemblyInfoInputs.cache
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.AssemblyInfo.cs
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.csproj.CoreCompileInputs.cache
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.sourcelink.json
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.dll
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\refint\6_SalesDataAggregator.dll
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.pdb
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\6_SalesDataAggregator.genruntimeconfig.cache
+W:\ASP.Net-core-training\Week-12\07MAY2026\6_SalesDataAggregator\obj\Debug\net10.0\ref\6_SalesDataAggregator.dll
