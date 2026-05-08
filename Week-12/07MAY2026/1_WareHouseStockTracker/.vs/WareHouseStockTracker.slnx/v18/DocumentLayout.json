@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\WareHouseStockTracker\\",
+  "WorkspaceRootPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\1_WareHouseStockTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEA9C704-10EF-4103-A525-87A4EF7FC780}|WareHouseStockTracker\\WareHouseStockTracker.csproj|w:\\asp.net-core-training\\week-12\\07may2026\\warehousestocktracker\\warehousestocktracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA9C704-10EF-4103-A525-87A4EF7FC780}|WareHouseStockTracker\\WareHouseStockTracker.csproj|solutionrelative:warehousestocktracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7280671-FEBC-FBC0-DF4F-59F90D1616AA}|WareHouseStockTracker\\WareHouseStockTracker.csproj|w:\\asp.net-core-training\\week-12\\07may2026\\1_warehousestocktracker\\warehousestocktracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7280671-FEBC-FBC0-DF4F-59F90D1616AA}|WareHouseStockTracker\\WareHouseStockTracker.csproj|solutionrelative:warehousestocktracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\WareHouseStockTracker\\WareHouseStockTracker\\Program.cs",
+              "DocumentMoniker": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\1_WareHouseStockTracker\\WareHouseStockTracker\\Program.cs",
               "RelativeDocumentMoniker": "WareHouseStockTracker\\Program.cs",
-              "ToolTip": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\WareHouseStockTracker\\WareHouseStockTracker\\Program.cs",
+              "ToolTip": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\1_WareHouseStockTracker\\WareHouseStockTracker\\Program.cs",
               "RelativeToolTip": "WareHouseStockTracker\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T07:35:30.837Z",
               "EditorCaption": ""

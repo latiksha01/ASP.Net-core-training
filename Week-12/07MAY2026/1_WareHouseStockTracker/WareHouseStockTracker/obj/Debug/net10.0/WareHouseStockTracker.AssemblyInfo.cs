@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WareHouseStockTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3f52870fcfd28cc392fcc1a4e01be29eae447d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+861c707367e14f8a0795f116e08fccec2b267c08")]
 [assembly: System.Reflection.AssemblyProductAttribute("WareHouseStockTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WareHouseStockTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

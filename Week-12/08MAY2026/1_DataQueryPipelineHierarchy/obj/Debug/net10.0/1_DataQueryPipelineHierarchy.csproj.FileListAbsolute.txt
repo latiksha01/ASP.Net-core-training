@@ -1,0 +1,15 @@
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\bin\Debug\net10.0\1_DataQueryPipelineHierarchy.exe
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\bin\Debug\net10.0\1_DataQueryPipelineHierarchy.deps.json
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\bin\Debug\net10.0\1_DataQueryPipelineHierarchy.runtimeconfig.json
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\bin\Debug\net10.0\1_DataQueryPipelineHierarchy.dll
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\bin\Debug\net10.0\1_DataQueryPipelineHierarchy.pdb
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.GeneratedMSBuildEditorConfig.editorconfig
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.AssemblyInfoInputs.cache
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.AssemblyInfo.cs
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.csproj.CoreCompileInputs.cache
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.sourcelink.json
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.dll
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\refint\1_DataQueryPipelineHierarchy.dll
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.pdb
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\1_DataQueryPipelineHierarchy.genruntimeconfig.cache
+W:\ASP.Net-core-training\Week-12\08MAY2026\1_DataQueryPipelineHierarchy\obj\Debug\net10.0\ref\1_DataQueryPipelineHierarchy.dll

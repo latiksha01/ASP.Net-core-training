@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 class Program
 {
@@ -9,33 +10,23 @@ class Program
 
         Dictionary<int, int> stock = new Dictionary<int, int>();
 
-        bool firstDisplay = true;
-
         for (int i = 0; i < n; i++)
         {
             string input = Console.ReadLine();
-
             string[] parts = input.Split(' ');
 
             string operation = parts[0];
 
-            // ADD Operation
             if (operation == "ADD")
             {
                 int productId = int.Parse(parts[1]);
                 int quantity = int.Parse(parts[2]);
 
-                if (stock.ContainsKey(productId))
-                {
-                    stock[productId] += quantity;
-                }
-                else
-                {
-                    stock[productId] = quantity;
-                }
+                stock[productId] = stock.ContainsKey(productId)
+                    ? stock[productId] + quantity
+                    : quantity;
             }
 
-            // REMOVE Operation
             else if (operation == "REMOVE")
             {
                 int productId = int.Parse(parts[1]);
@@ -44,6 +35,11 @@ class Program
                 if (stock.ContainsKey(productId) && stock[productId] >= quantity)
                 {
                     stock[productId] -= quantity;
+
+                    if (stock[productId] == 0)
+                    {
+                        stock.Remove(productId);
+                    }
                 }
                 else
                 {
@@ -51,22 +47,15 @@ class Program
                 }
             }
 
-            // CHECK Operation
             else if (operation == "CHECK")
             {
                 int productId = int.Parse(parts[1]);
 
-                if (stock.ContainsKey(productId))
-                {
-                    Console.WriteLine($"Product {productId}: {stock[productId]} units");
-                }
-                else
-                {
-                    Console.WriteLine($"Product {productId}: 0 units");
-                }
+                Console.WriteLine(
+                    $"Product {productId}: {(stock.ContainsKey(productId) ? stock[productId] : 0)} units"
+                );
             }
 
-            // BULK Operation
             else if (operation == "BULK")
             {
                 string bulkData = input.Substring(5);
@@ -77,39 +66,25 @@ class Program
                 {
                     string[] item = product.Split(':');
 
-                    int productId = int.Parse(item[0]);
-                    int quantity = int.Parse(item[1]);
+                    if (item.Length == 2)
+                    {
+                        int productId = int.Parse(item[0]);
+                        int quantity = int.Parse(item[1]);
 
-                    if (stock.ContainsKey(productId))
-                    {
-                        stock[productId] += quantity;
-                    }
-                    else
-                    {
-                        stock[productId] = quantity;
+                        stock[productId] = stock.ContainsKey(productId)
+                            ? stock[productId] + quantity
+                            : quantity;
                     }
                 }
             }
 
-            // DISPLAY Operation
             else if (operation == "DISPLAY")
             {
-                if (firstDisplay)
-                {
-                    Console.WriteLine("--- Current Inventory---");
-                    firstDisplay = false;
-                }
-                else
-                {
-                    Console.WriteLine("--- Updated Inventory---");
-                }
+                Console.WriteLine("--- Inventory ---");
 
-                foreach (var item in stock)
+                foreach (var item in stock.OrderBy(x => x.Key))
                 {
-                    if (item.Value > 0)
-                    {
-                        Console.WriteLine($"{item.Key}: {item.Value} units");
-                    }
+                    Console.WriteLine($"{item.Key}: {item.Value} units");
                 }
             }
         }

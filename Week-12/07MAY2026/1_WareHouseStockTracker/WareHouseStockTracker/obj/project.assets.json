@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\WareHouseStockTracker\\WareHouseStockTracker\\WareHouseStockTracker.csproj",
+      "projectUniqueName": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\1_WareHouseStockTracker\\WareHouseStockTracker\\WareHouseStockTracker.csproj",
       "projectName": "WareHouseStockTracker",
-      "projectPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\WareHouseStockTracker\\WareHouseStockTracker\\WareHouseStockTracker.csproj",
+      "projectPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\1_WareHouseStockTracker\\WareHouseStockTracker\\WareHouseStockTracker.csproj",
       "packagesPath": "C:\\Users\\latik\\.nuget\\packages\\",
-      "outputPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\WareHouseStockTracker\\WareHouseStockTracker\\obj\\",
+      "outputPath": "W:\\ASP.Net-core-training\\Week-12\\07MAY2026\\1_WareHouseStockTracker\\WareHouseStockTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
