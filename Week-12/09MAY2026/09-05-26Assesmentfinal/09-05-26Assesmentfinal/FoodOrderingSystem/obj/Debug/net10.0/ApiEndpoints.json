@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FoodOrderingSystem.Controllers.Api.FoodItemsController",
+    "Method": "Get",
+    "RelativePath": "api/FoodItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

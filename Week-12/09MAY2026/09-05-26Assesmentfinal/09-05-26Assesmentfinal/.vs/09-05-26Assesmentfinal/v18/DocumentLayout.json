@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\09-05-26Assesmentfinal\\09-05-26Assesmentfinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0634CFB0-B72F-6015-725B-098251500F23}|FoodOrderingSystem\\FoodOrderingSystem.csproj|w:\\09-05-26assesmentfinal\\09-05-26assesmentfinal\\foodorderingsystem\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{0634CFB0-B72F-6015-725B-098251500F23}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634CFB0-B72F-6015-725B-098251500F23}|FoodOrderingSystem\\FoodOrderingSystem.csproj|w:\\09-05-26assesmentfinal\\09-05-26assesmentfinal\\foodorderingsystem\\azure-pipelines.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{0634CFB0-B72F-6015-725B-098251500F23}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\azure-pipelines.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "W:\\09-05-26Assesmentfinal\\09-05-26Assesmentfinal\\FoodOrderingSystem\\docker-compose.yml",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\docker-compose.yml",
+              "ToolTip": "W:\\09-05-26Assesmentfinal\\09-05-26Assesmentfinal\\FoodOrderingSystem\\docker-compose.yml",
+              "RelativeToolTip": "FoodOrderingSystem\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-09T10:25:58.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "azure-pipelines.yml",
+              "DocumentMoniker": "W:\\09-05-26Assesmentfinal\\09-05-26Assesmentfinal\\FoodOrderingSystem\\azure-pipelines.yml",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\azure-pipelines.yml",
+              "ToolTip": "W:\\09-05-26Assesmentfinal\\09-05-26Assesmentfinal\\FoodOrderingSystem\\azure-pipelines.yml",
+              "RelativeToolTip": "FoodOrderingSystem\\azure-pipelines.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-09T10:25:54.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
